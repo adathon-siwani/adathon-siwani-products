@@ -1,0 +1,5 @@
+imgs/*
+!imgs/.gitkeep
+imgs.csv
+products.csv
+products.json
