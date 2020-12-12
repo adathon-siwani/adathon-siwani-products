@@ -19,3 +19,8 @@ wget -i imgs.csv -P imgs
 ```
 wget -i imgs_sm.csv -P imgs_sm
 ```
+
+# Modo de uso
+
+Para usar las imágenes contenidas en este repositorio, si se desea obtener la imagen `228af0_3fcc88019f1a44afb46a76d10c0f886c~mv2.jpg`
+se debe acceder agregar la base url `https://raw.githubusercontent.com/adathon-siwani/siwani-products/master/imgs/` o `https://raw.githubusercontent.com/adathon-siwani/siwani-products/master/imgs_sm/`.
