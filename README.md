@@ -15,3 +15,7 @@ Para descargar las imágenes desde el csv:
 ```
 wget -i imgs.csv -P imgs
 ```
+
+```
+wget -i imgs_sm.csv -P imgs_sm
+```
