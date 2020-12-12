@@ -48,3 +48,11 @@ const img = lists
   .filter(onlyUnique);
 
 fs.writeFileSync("imgs.csv", img.join("\n"));
+
+const img_sm = lists
+  .map((p) => (p.media.length ? p.media[0].url : null))
+  .filter((i) => i !== null)
+  .map((i) => `https://static.wixstatic.com/media/${i}/v1/fill/w_228,h_228,al_c,q_80,usm_0.66_1.00_0.01/${i}.jpg`)
+  .filter(onlyUnique);
+
+fs.writeFileSync("imgs_sm.csv", img_sm.join("\n"));
