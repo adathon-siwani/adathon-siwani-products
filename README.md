@@ -24,10 +24,15 @@ wget -i imgs_sm.csv -P imgs_sm
 
 `${base_url}/${size}/${img_name}`
 
+```
 base_url = https://raw.githubusercontent.com/adathon-siwani/siwani-products/master
 size = imgs|imgs_sm
 img_name = el nombre de la imagen del BE
+```
 
 Por ejemplo, si se desea obtener la imagen `228af0_3fcc88019f1a44afb46a76d10c0f886c~mv2.jpg`
-se debe acceder agregar la base url `https://raw.githubusercontent.com/adathon-siwani/siwani-products/master/imgs/` o `https://raw.githubusercontent.com/adathon-siwani/siwani-products/master/imgs_sm/`, quedando como resultado
-![siwani](https://raw.githubusercontent.com/adathon-siwani/siwani-products/master/imgs_sm/228af0_3fcc88019f1a44afb46a76d10c0f886c~mv2.jpg)
+se debe acceder agregar la base url `https://raw.githubusercontent.com/adathon-siwani/siwani-products/master/imgs/` o `https://raw.githubusercontent.com/adathon-siwani/siwani-products/master/imgs_sm/`, quedando como resultado:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/adathon-siwani/siwani-products/master/imgs_sm/228af0_3fcc88019f1a44afb46a76d10c0f886c~mv2.jpg">
+</p>
